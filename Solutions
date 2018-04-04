@@ -1,0 +1,6 @@
+
+
+CREATE TABLE movie (
+  id AUTO INCREMENT PRIMARY KEY,
+  title VARCHAR(100),
+  mediatypeid INTEGER REFERENCES mediatype(mediatypeid));
